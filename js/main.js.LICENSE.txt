@@ -4,6 +4,8 @@
 
 //! устанавливаем настройки для секции feedback
 
+//!accordion
+
 //!hero-swiper
 
 //!insta-swiper
