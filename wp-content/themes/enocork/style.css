@@ -1,0 +1,103 @@
+/*
+Theme Name: enocork
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: enocork
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* validate form */
+.wpcf7-not-valid-tip,
+.wpcf7-spinner {
+  display: none !important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output,
+.wpcf7 form.sent .wpcf7-response-output {
+  text-align: center;
+  border: none;
+  color: red;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  color: green;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  margin: 1vw auto 1vw;
+  padding: 0;
+  border: none;
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header__form .wpcf7 form.invalid .wpcf7-response-output,
+  .wpcf7 form.unaccepted .wpcf7-response-output,
+  .wpcf7 form.payment-required .wpcf7-response-output,
+  .wpcf7 form.sent .wpcf7-response-output {
+    position: static;
+    width: 100%;
+    font-size: 2.5vw;
+    margin: 3vw auto 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__form .wpcf7 form.invalid .wpcf7-response-output,
+  .wpcf7 form.unaccepted .wpcf7-response-output,
+  .wpcf7 form.payment-required .wpcf7-response-output,
+  .wpcf7 form.sent .wpcf7-response-output {
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .wpcf7 form.invalid .wpcf7-response-output,
+  .wpcf7 form.unaccepted .wpcf7-response-output,
+  .wpcf7 form.payment-required .wpcf7-response-output,
+  .wpcf7 form.sent .wpcf7-response-output {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wpcf7 form.invalid .wpcf7-response-output,
+  .wpcf7 form.unaccepted .wpcf7-response-output,
+  .wpcf7 form.payment-required .wpcf7-response-output,
+  .wpcf7 form.sent .wpcf7-response-output {
+    font-size: 4vw;
+  }
+}
+
+div#map a {
+  display: none !important;
+}
+
+.contacts-map .gm-fullscreen-control {
+  background: none rgb(255, 255, 255);
+  border: 0px;
+  margin: 10px;
+  padding: 0px;
+  text-transform: none;
+  appearance: none;
+  position: static;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 40px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+  overflow: hidden;
+  top: 50px !important;
+}
